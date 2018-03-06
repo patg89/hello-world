@@ -11,9 +11,17 @@ namespace HelloWorldForGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Github!");
-
+            new AddedClass().SayHello();
 
             Console.ReadLine();
+        }
+    }
+
+    class AddedClass
+    {
+        public void SayHello()
+        {
+            Console.WriteLine("Hello world!");
         }
     }
 }
